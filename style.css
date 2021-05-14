@@ -1,0 +1,55 @@
+body{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+.logo{
+    width: 100px;
+}
+.centerall{
+    margin: 15px auto;
+}
+#food-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cardcont{
+    margin: 10px auto;
+    border-radius: 8px;
+    background-color: #F8F7F5;
+}
+.cardimg img{
+    width: 250px;
+    height: 250px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.card-title{
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+#cardfrom{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.imgforcard{
+    width: 300px;
+    height: 300px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.cardDesgin{
+    margin: 20px auto;
+    background-color: #F8F7F5;
+    border-radius: 8px;
+
+
+}
+.allItems{
+    margin: 10px;
+}
